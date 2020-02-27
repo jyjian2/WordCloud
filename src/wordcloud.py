@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import sys
 
 class WordCloud:
 
@@ -21,6 +22,6 @@ class WordCloud:
 
 
 
-wc = WordCloud("test/test-paragraph.txt")
+wc = WordCloud(sys.argv[1])
 wc.load()
 print(wc.sorted_word_tuples)
