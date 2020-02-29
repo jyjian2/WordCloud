@@ -1,1 +1,2 @@
-there are three pigs: a red pig, a white pig and a black pig.
+pig, pig!, pig~ pig
+a b c a a

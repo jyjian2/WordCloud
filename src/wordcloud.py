@@ -21,7 +21,7 @@ class WordCloud:
         self.sorted_word_tuples = sorted(wrd_freq_tup, key=lambda e: e[1], reverse=True)
 
 
-
-wc = WordCloud(sys.argv[1])
-wc.load()
-print(wc.sorted_word_tuples)
+if __name__ == "__main__":
+    wc = WordCloud(sys.argv[1])
+    wc.load()
+    print(wc.sorted_word_tuples)

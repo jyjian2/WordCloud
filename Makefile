@@ -1,5 +1,4 @@
 test:
-	python3 src/wordcloud.py test/test-paragraph.txt
-	python3 src/wordcloud.py test/test-paragraph01.txt
+	python3 -m unittest test/test-wordcloud.py
 
 .PHONY:test
