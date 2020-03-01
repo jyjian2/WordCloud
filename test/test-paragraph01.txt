@@ -1,2 +1,2 @@
 pig, pig!, pig~ pig
-a b c a a
+apple b c apple apple.
