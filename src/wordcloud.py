@@ -45,9 +45,12 @@ class WordCloud:
         for text in self.sorted_word_tuples:
             x = random.randrange(50,550)
             y = random.randrange(50,550)
-            sz = int((text[1] / sum_freq) * 3600)
+            r = random.randrange(0,255)
+            g = random.randrange(0,255)
+            b = random.randrange(0,255)
+            sz = int((text[1] / sum_freq) * 5000)
             fnt = ImageFont.truetype('/Library/Fonts/Arial.ttf', sz)
-            d.text((x,y), text[0], font=fnt, fill=(148,0,211))
+            d.text((x,y), text[0], font=fnt, fill=(r,g,b))
         img.save(self.image_path)
 
 
